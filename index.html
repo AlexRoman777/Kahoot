@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="section" id="homeSection">
+        <div class="shapes">
+            <div class="smallShape square" onclick="scrollToShape('square')"></div>
+            <div class="smallShape rhombus" onclick="scrollToShape('rhombus')"></div>
+            <div class="smallShape circle" onclick="scrollToShape('circle')"></div>
+            <div class="smallShape triangle" onclick="scrollToShape('triangle')"></div>
+        </div>
+    </div>
+    <div class="section" id="squareSection">
+        <div class="shapes">
+            <div class="bigShape square" onclick="scrollToSection('homeSection')"></div>
+        </div>
+    </div>
+    <div class="section" id="rhombusSection">
+        <div class="shapes">
+            <div class="bigShape rhombus" onclick="scrollToSection('homeSection')"></div>
+        </div>
+    </div>
+    <div class="section" id="circleSection">
+        <div class="shapes">
+            <div class="bigShape circle" onclick="scrollToSection('homeSection')"></div>
+        </div>
+    </div>
+    <div class="section" id="triangleSection">
+        <div class="shapes">
+            <div class="bigShape triangle" onclick="scrollToSection('homeSection')"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

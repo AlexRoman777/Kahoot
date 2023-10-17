@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shapes {
+    display: flex;
+    align-items: center;
+}
+
+.smallShape {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.bigShape {
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    margin: 40px;
+}
+
+.square {
+    background-color: blue;
+}
+
+.rhombus {
+    background-color: green;
+    transform: rotate(45deg);
+}
+
+.circle {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.triangle {
+    background-color: yellow;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}

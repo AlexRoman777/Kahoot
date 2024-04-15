@@ -33,35 +33,12 @@ body {
 
 @media screen and (max-width: 600px) {
   .bigShape {
-    width: 75vw;
-    height: 75vw;
+    width: 80vw;
+    height: 80vw;
   }
-  .smallShape {
-    width: 25vw;
-    height: 25vw;
-  }
-}
-
-@-moz-document url-prefix() {
   .smallShape {
     width: 20vw;
     height: 20vw;
-  }
-
-  .bigShape {
-    width: 70vw;
-    height: 70vw;
-  }
-
-  @media screen and (max-width: 600px) {
-    .bigShape {
-      width: 90vw;
-      height: 90vw;
-    }
-    .smallShape {
-      width: 30vw;
-      height: 30vw;
-    }
   }
 }
 

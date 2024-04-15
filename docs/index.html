@@ -1,37 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
     <div class="section" id="homeSection">
-        <div class="shapes">
-            <div class="smallShape square" onclick="scrollToShape('square')"></div>
-            <div class="smallShape rhombus" onclick="scrollToShape('rhombus')"></div>
-            <div class="smallShape circle" onclick="scrollToShape('circle')"></div>
-            <div class="smallShape triangle" onclick="scrollToShape('triangle')"></div>
-        </div>
+      <div class="shapes">
+        <div class="smallShape square" onclick="scrollToShape('square')"></div>
+        <div
+          class="smallShape rhombus"
+          onclick="scrollToShape('rhombus')"
+        ></div>
+        <div class="smallShape circle" onclick="scrollToShape('circle')"></div>
+        <div
+          class="smallShape triangle"
+          onclick="scrollToShape('triangle')"
+        ></div>
+      </div>
     </div>
     <div class="section" id="squareSection">
-        <div class="shapes">
-            <div class="bigShape square" onclick="scrollToSection('homeSection')"></div>
-        </div>
+      <div class="shapes">
+        <div
+          class="bigShape square"
+          onclick="scrollToSection('homeSection')"
+        ></div>
+      </div>
     </div>
     <div class="section" id="rhombusSection">
-        <div class="shapes">
-            <div class="bigShape rhombus" onclick="scrollToSection('homeSection')"></div>
-        </div>
+      <div class="shapes">
+        <div
+          class="bigShape rhombus"
+          onclick="scrollToSection('homeSection')"
+        ></div>
+      </div>
     </div>
     <div class="section" id="circleSection">
-        <div class="shapes">
-            <div class="bigShape circle" onclick="scrollToSection('homeSection')"></div>
-        </div>
+      <div class="shapes">
+        <div
+          class="bigShape circle"
+          onclick="scrollToSection('homeSection')"
+        ></div>
+      </div>
     </div>
     <div class="section" id="triangleSection">
-        <div class="shapes">
-            <div class="bigShape triangle" onclick="scrollToSection('homeSection')"></div>
-        </div>
+      <div class="shapes">
+        <div
+          class="bigShape triangle"
+          onclick="scrollToSection('homeSection')"
+        ></div>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

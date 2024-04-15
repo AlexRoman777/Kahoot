@@ -17,4 +17,4 @@ Visit the [Offline Kahoot](https://alexroman777.github.io/Kahoot/) webapp and yo
 
 ---
 
-![Last Update](https://img.shields.io/github/last-commit/AlexRoman777/Kahoot)
+![Last Commit](https://img.shields.io/github/last-commit/AlexRoman777/Kahoot)

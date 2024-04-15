@@ -33,34 +33,34 @@ body {
 
 @media screen and (max-width: 600px) {
   .bigShape {
-    width: 70vw;
-    height: 70vw;
+    width: 75vw;
+    height: 75vw;
   }
   .smallShape {
-    width: 20vw;
-    height: 20vw;
+    width: 25vw;
+    height: 25vw;
   }
 }
 
 @-moz-document url-prefix() {
   .smallShape {
-    width: 15vw;
-    height: 15vw;
+    width: 20vw;
+    height: 20vw;
   }
 
   .bigShape {
-    width: 45vw;
-    height: 45vw;
+    width: 70vw;
+    height: 70vw;
   }
 
   @media screen and (max-width: 600px) {
     .bigShape {
-      width: 75vw;
-      height: 75vw;
+      width: 90vw;
+      height: 90vw;
     }
     .smallShape {
-      width: 25vw;
-      height: 25vw;
+      width: 30vw;
+      height: 30vw;
     }
   }
 }

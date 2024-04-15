@@ -25,10 +25,15 @@ body {
 }
 
 .bigShape {
-    width: 500px;
-    height: 500px;
+    width: 40vw;
+    height: 40vw;
     cursor: pointer;
-    margin: 50px;
+    margin: 4vw;
+}
+
+.rhombus {
+    background-color: green;
+    transform: rotate(45deg) scale(0.8);
 }
 
 .square {

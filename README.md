@@ -12,9 +12,12 @@ Visit the [Offline Kahoot](https://alexroman777.github.io/Kahoot/) webapp and yo
 - Click the shape again to return to the main screen.
 
 <p align="center">
-    <img src="img/kahoot.png" alt="Kahoot" width=70%>
+    <img src="docs/img/kahoot.png" alt="Kahoot" width=97%>
 </p>
 
 ---
 
 ![Last Commit](https://img.shields.io/github/last-commit/AlexRoman777/Kahoot)
+![Forks](https://img.shields.io/github/forks/AlexRoman777/Kahoot?style=social)
+![Stars](https://img.shields.io/github/stars/AlexRoman777/Kahoot?style=social)
+![Watchers](https://img.shields.io/github/watchers/AlexRoman777/Kahoot?style=social)

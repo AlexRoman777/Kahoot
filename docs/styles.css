@@ -42,6 +42,29 @@ body {
   }
 }
 
+@-moz-document url-prefix() {
+  .smallShape {
+    width: 15vw;
+    height: 15vw;
+  }
+
+  .bigShape {
+    width: 45vw;
+    height: 45vw;
+  }
+
+  @media screen and (max-width: 600px) {
+    .bigShape {
+      width: 75vw;
+      height: 75vw;
+    }
+    .smallShape {
+      width: 25vw;
+      height: 25vw;
+    }
+  }
+}
+
 .rhombus {
   background-color: green;
   transform: rotate(45deg) scale(0.8);

@@ -1,56 +1,67 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    color: white;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
 }
 
 .section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .shapes {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .smallShape {
-    width: 100px;
-    height: 100px;
-    cursor: pointer;
-    margin: 20px;
+  width: 10vw;
+  height: 10vw;
+  cursor: pointer;
+  margin: 2vw;
 }
 
 .bigShape {
-    width: 40vw;
-    height: 40vw;
-    cursor: pointer;
-    margin: 4vw;
+  width: 40vw;
+  height: 40vw;
+  cursor: pointer;
+  margin: 4vw;
+}
+
+@media screen and (max-width: 600px) {
+  .bigShape {
+    width: 70vw;
+    height: 70vw;
+  }
+  .smallShape {
+    width: 20vw;
+    height: 20vw;
+  }
 }
 
 .rhombus {
-    background-color: green;
-    transform: rotate(45deg) scale(0.8);
+  background-color: green;
+  transform: rotate(45deg) scale(0.8);
 }
 
 .square {
-    background-color: blue;
+  background-color: blue;
 }
 
 .rhombus {
-    background-color: green;
-    transform: rotate(45deg) scale(0.8);
+  background-color: green;
+  transform: rotate(45deg) scale(0.8);
 }
 
 .circle {
-    background-color: red;
-    border-radius: 50%;
+  background-color: red;
+  border-radius: 50%;
 }
 
 .triangle {
-    background-color: yellow;
-    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  background-color: yellow;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
 }

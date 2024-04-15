@@ -37,7 +37,7 @@ body {
 
 .rhombus {
     background-color: green;
-    transform: rotate(45deg);
+    transform: rotate(45deg) scale(0.8);
 }
 
 .circle {
